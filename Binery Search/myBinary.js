@@ -2,7 +2,7 @@
 const arr = [10, 20, 30, 40, 50, 60, 70, 80, 90]
 const x = 50
 
-function getBinery(arr, x) {
+function getBinary(arr, x) {
     let low = 0
     let high = arr.length -1
 
@@ -18,4 +18,4 @@ function getBinery(arr, x) {
     }
     return null
 }
-console.log(getBinery(arr, x));
+console.log(getBinary(arr, x));

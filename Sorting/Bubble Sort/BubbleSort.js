@@ -3,16 +3,15 @@ const arr = [85, 78, 69, 75, 26, 55, 46, 38]
 
 function getBubbleSort(arr){
     for(let i = 0; i < arr.length; i++){ 
-        for(let j = 0; j < arr.length; j++){ 
+        for(let j = 0; j < arr.length-1; j++){ 
             if(arr[j] > arr[j+1]){ 
-                swap(arr, i, j) 
+                swap(arr, i, j+1) 
             }
         }
     }
     return arr
 }
 
-console.log(getBubbleSort(arr));
 
 function swap(arr, i, j) {
     let temp = arr[i]
@@ -21,4 +20,4 @@ function swap(arr, i, j) {
     return arr
 }
 
-
+console.log(getBubbleSort(arr));

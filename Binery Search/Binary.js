@@ -1,6 +1,6 @@
 
-// Binery Search 
-// its apply only sorted array
+// Binary Search 
+// it is applyed only on sorted array
 
 // steps
 // find mid index : mid =(low+high) / 2
@@ -9,7 +9,7 @@
 // if key < arr[mid] high = mid -1
 
 
-function getBinery(arr, x) {
+function getBinary(arr, x) {
     // Iterate while start not meets end
     while (start <= end) {
 
@@ -36,4 +36,4 @@ const x = 8
 let start = 0
 let end = arr.length -1
 
-console.log(getBinery(arr, x));
+console.log(getBinary(arr, x));

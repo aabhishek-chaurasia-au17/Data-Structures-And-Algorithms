@@ -6,7 +6,7 @@ function sorting(arr) {
 
     for (let indexi = 0; indexi < arr.length; indexi++) {  //
         
-        for (let indexj = 0; indexj < arr.length ; indexj++) {
+        for (let indexj = 0; indexj < arr.length-1 ; indexj++) {
             
             if(arr[indexj] > arr[indexj +1]){
                  

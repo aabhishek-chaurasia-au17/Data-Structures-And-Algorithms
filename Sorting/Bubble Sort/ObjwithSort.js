@@ -14,7 +14,7 @@ user1.lname = 'chaurasia'
 
 User.prototype.getSorting = function (arr) {
     for (let i = 0; i < arr.length; i++) {
-        for(let j = 0; j < arr.length; j++){
+        for(let j = 0; j < arr.length -1; j++){
             if(arr[j] > arr[j+1]){
                 this.swap(arr, j, j+1)
             }
